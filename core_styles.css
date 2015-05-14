@@ -1,0 +1,55 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––Nav Bar----------- */
+
+.x-navbar-inner, footer.x-colophon.bottom {
+  min-height: 90px;
+  background-position: 0 0!important;
+  background-repeat: repeat;
+  background: url(http://ncpmr.com/wp-content/styles/images/noise.png),;
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -webkit-gradient(linear,0% 0%,0% 100%,from(rgba(37,77,163,1)),to(rgba(37,77,163,0)));
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -webkit-linear-gradient(left,rgba(37,77,163,0) 0%,rgba(37,77,163,1) 50%,rgba(37,77,163,0) 100%);
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -moz-linear-gradient(left,rgba(37,77,163,0) 0%,rgba(37,77,163,1) 50%,rgba(37,77,163,0) 100%);
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -ms-linear-gradient(left,rgba(37,77,163,0) 0%,rgba(37,77,163,1) 50%,rgba(37,77,163,0) 100%);
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -o-linear-gradient(left,rgba(37,77,163,0) 0%,rgba(37,77,163,1) 50%,rgba(37,77,163,0) 100%);
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), linear-gradient(left,rgba(37,77,163,0) 0%,rgba(37,77,163,1) 50%,rgba(37,77,163,0) 100%);
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -webkit-radial-gradient(top center,rgba(37,77,163,1),rgba(37,77,163,0));
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -moz-radial-gradient(top center,rgba(37,77,163,1),rgba(37,77,163,0));
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -ms-radial-gradient(top center,rgba(37,77,163,1),rgba(37,77,163,0));
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), -o-radial-gradient(top center,rgba(37,77,163,1),rgba(37,77,163,0));
+  background-image: url(http://ncpmr.com/wp-content/styles/images/noise.png), radial-gradient(top center,rgba(37,77,163,1),rgba(37,77,163,0));
+  background-color: #202e5b;
+}
+
+.x-navbar-inner:before {
+  content: "";
+  background: url(http://ncpmr.com/wp-content/styles/images/big_shadow.png);
+  display: block;
+  width: 100%;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0.6;
+}
+
+.x-navbar-inner:after {
+  content: "";
+  background: url(http://ncpmr.com/wp-content/styles/images/big_shadow.png);
+  display: block;
+  width: 100%;
+  height: 42px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 90px;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––Content----------- */
+div#x-content-band-2 img {
+  border: 2px solid #fff;
+}
+.home div#x-content-band-2 {
+  position: relative;
+  top: -60px;
+  z-index: 100;
+}
