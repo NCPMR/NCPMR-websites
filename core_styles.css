@@ -19,6 +19,11 @@
   background-color: #202e5b;
 }
 
+.x-navbar {
+  border-bottom: 0;
+}
+
+
 .x-navbar-inner:before {
   content: "";
   background: url(http://ncpmr.com/wp-content/styles/images/big_shadow.png);
