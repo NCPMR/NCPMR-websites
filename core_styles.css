@@ -20,11 +20,11 @@
 }
 
 .x-navbar {
-  border-bottom: 0px !important;
+  border-bottom: 0px;
 }
 
 .x-navbar-fixed-top-active .x-navbar-wrap {
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
 
 .x-navbar-inner:before {
